@@ -7,6 +7,7 @@
 ///Users/user/Documents/web/web/AppDelegate.m
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
@@ -14,5 +15,7 @@
 @property (weak) IBOutlet NSButton *Connect;
 @property (weak) IBOutlet NSButton *Close;
 @property (weak) IBOutlet NSTextField *Edit;
+@property (weak) IBOutlet NSView *MainWindow;
+@property (weak) IBOutlet WebView *View;
 
 @end
