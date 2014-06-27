@@ -11,13 +11,13 @@
 		CE651636195C56680081E5BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE651634195C56680081E5BF /* InfoPlist.strings */; };
 		CE651638195C56680081E5BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE651637195C56680081E5BF /* main.m */; };
 		CE65163C195C56680081E5BF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CE65163A195C56680081E5BF /* Credits.rtf */; };
-		CE65163F195C56680081E5BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE65163E195C56680081E5BF /* AppDelegate.m */; };
 		CE651642195C56690081E5BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE651640195C56690081E5BF /* MainMenu.xib */; };
 		CE651644195C56690081E5BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE651643195C56690081E5BF /* Images.xcassets */; };
 		CE65164B195C56690081E5BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65164A195C56690081E5BF /* XCTest.framework */; };
 		CE65164C195C56690081E5BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65162B195C56680081E5BF /* Cocoa.framework */; };
 		CE651654195C56690081E5BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE651652195C56690081E5BF /* InfoPlist.strings */; };
 		CE651656195C56690081E5BF /* webTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE651655195C56690081E5BF /* webTests.m */; };
+		CE94011B195C5F1F00F070B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE94011A195C5F1F00F070B0 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		CE651639195C56680081E5BF /* web-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "web-Prefix.pch"; sourceTree = "<group>"; };
 		CE65163B195C56680081E5BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		CE65163D195C56680081E5BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CE65163E195C56680081E5BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE651641195C56690081E5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CE651643195C56690081E5BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE651649195C56690081E5BF /* webTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +49,7 @@
 		CE651651195C56690081E5BF /* webTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webTests-Info.plist"; sourceTree = "<group>"; };
 		CE651653195C56690081E5BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE651655195C56690081E5BF /* webTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webTests.m; sourceTree = "<group>"; };
+		CE94011A195C5F1F00F070B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				CE65163D195C56680081E5BF /* AppDelegate.h */,
-				CE65163E195C56680081E5BF /* AppDelegate.m */,
+				CE94011A195C5F1F00F070B0 /* AppDelegate.m */,
 				CE651640195C56690081E5BF /* MainMenu.xib */,
 				CE651643195C56690081E5BF /* Images.xcassets */,
 				CE651632195C56680081E5BF /* Supporting Files */,
@@ -252,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE65163F195C56680081E5BF /* AppDelegate.m in Sources */,
+				CE94011B195C5F1F00F070B0 /* AppDelegate.m in Sources */,
 				CE651638195C56680081E5BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +466,7 @@
 				CE65165B195C56690081E5BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE65165C195C56690081E5BF /* Build configuration list for PBXNativeTarget "webTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +475,7 @@
 				CE65165E195C56690081E5BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
