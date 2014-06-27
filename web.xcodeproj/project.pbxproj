@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE65162C195C56680081E5BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65162B195C56680081E5BF /* Cocoa.framework */; };
+		CE65162C195C56680081E5BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65162B195C56680081E5BF /* Cocoa.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		CE651636195C56680081E5BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE651634195C56680081E5BF /* InfoPlist.strings */; };
 		CE651638195C56680081E5BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE651637195C56680081E5BF /* main.m */; };
 		CE65163C195C56680081E5BF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CE65163A195C56680081E5BF /* Credits.rtf */; };
@@ -18,6 +18,7 @@
 		CE651654195C56690081E5BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE651652195C56690081E5BF /* InfoPlist.strings */; };
 		CE651656195C56690081E5BF /* webTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE651655195C56690081E5BF /* webTests.m */; };
 		CE94011B195C5F1F00F070B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE94011A195C5F1F00F070B0 /* AppDelegate.m */; };
+		CE9A04C2195DB3C500D7FCB4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9A04C1195DB3C500D7FCB4 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		CE651653195C56690081E5BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE651655195C56690081E5BF /* webTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webTests.m; sourceTree = "<group>"; };
 		CE94011A195C5F1F00F070B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE9A04C1195DB3C500D7FCB4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9A04C2195DB3C500D7FCB4 /* WebKit.framework in Frameworks */,
 				CE65162C195C56680081E5BF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +98,7 @@
 		CE65162A195C56680081E5BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE9A04C1195DB3C500D7FCB4 /* WebKit.framework */,
 				CE65162B195C56680081E5BF /* Cocoa.framework */,
 				CE65164A195C56690081E5BF /* XCTest.framework */,
 				CE65162D195C56680081E5BF /* Other Frameworks */,

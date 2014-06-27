@@ -11,11 +11,12 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (strong) IBOutlet NSWindow *window;
+
+@property (weak) IBOutlet NSTextField *Edit;
 @property (weak) IBOutlet NSButton *Connect;
 @property (weak) IBOutlet NSButton *Close;
-@property (weak) IBOutlet NSTextField *Edit;
-@property (weak) IBOutlet NSView *MainWindow;
-@property (weak) IBOutlet WebView *View;
 
+@property (weak) IBOutlet WebView *WebView;
+@property (unsafe_unretained) IBOutlet NSWindow *View;
 @end
