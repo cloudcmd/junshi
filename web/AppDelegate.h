@@ -19,4 +19,5 @@
 
 @property (weak) IBOutlet WebView *WebView;
 @property (unsafe_unretained) IBOutlet NSWindow *View;
+@property (weak) IBOutlet NSButton *Console;
 @end

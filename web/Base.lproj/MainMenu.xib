@@ -15,6 +15,7 @@
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
                 <outlet property="Close" destination="DGD-Fi-djl" id="56Z-53-XQj"/>
+                <outlet property="Console" destination="ijY-9d-ZMp" id="wSL-i7-Wvz"/>
                 <outlet property="Edit" destination="y1T-BK-Q5G" id="CI7-Dg-EaB"/>
                 <outlet property="View" destination="ZcY-L8-Yei" id="XUl-hc-Dye"/>
                 <outlet property="WebView" destination="6g1-B7-mLj" id="K6x-8D-Qu5"/>
@@ -675,10 +676,10 @@
         <window title="web" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="213" height="101"/>
+            <rect key="contentRect" x="335" y="390" width="301" height="101"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1024" height="746"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="213" height="101"/>
+                <rect key="frame" x="0.0" y="0.0" width="301" height="101"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BAL-Wv-3iq">
@@ -693,7 +694,7 @@
                         </connections>
                     </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DGD-Fi-djl">
-                        <rect key="frame" x="103" y="9" width="104" height="32"/>
+                        <rect key="frame" x="183" y="9" width="104" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="z21-Hd-XJD">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -704,7 +705,7 @@
                         </connections>
                     </button>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y1T-BK-Q5G">
-                        <rect key="frame" x="53" y="54" width="148" height="22"/>
+                        <rect key="frame" x="53" y="56" width="228" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="sXQ-bi-bg7">
                             <font key="font" metaFont="system"/>
@@ -724,6 +725,17 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ijY-9d-ZMp">
+                        <rect key="frame" x="101" y="9" width="82" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Console" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="T0S-yL-jB6">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="Console:" target="Voe-Tx-rLC" id="nY5-hx-Ifg"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
         </window>

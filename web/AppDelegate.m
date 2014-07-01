@@ -10,13 +10,7 @@
 
 @implementation AppDelegate
 - (IBAction)Connect:(id)sender{
-    /*
-    NSString *url = [_Edit stringValue];
-    
-    NSAlert *alert = [[NSAlert alloc] init];
-    [alert setMessageText:url];
-    [alert runModal];
-     */
+   
     NSString *urlStr = self.Edit.stringValue;
     NSURL *url = [NSURL URLWithString:urlStr];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -35,6 +29,12 @@
 }
 
 - (IBAction)Edit:(id)sender {
+}
+
+- (IBAction)Console:(id)sender {
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:@"Connection..."];
+    [alert runModal];
 }
 
 @end
