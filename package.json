@@ -6,7 +6,7 @@
   "homepage": "http://cloudcmd.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/junshi.git"
+    "url": "git://github.com/cloudcmd/junshi.git"
   },
   "license": "MIT"
 }
